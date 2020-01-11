@@ -1,0 +1,23 @@
+{
+  "name": "ngo_funding",
+  "version": "1.0.0",
+  "description": "a ngo funding and donation site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mctjames/NGO_Funding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mctjames/NGO_Funding/issues"
+  },
+  "homepage": "https://github.com/mctjames/NGO_Funding#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
