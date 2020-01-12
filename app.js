@@ -26,33 +26,33 @@ app.get('/about', function(req, res ){
 	res.render('pages/about')
 })
 
-app.get('/causes', function(req, res ){
-	res.render('pages/causes')
-})
+// app.get('/causes', function(req, res ){
+// 	res.render('pages/causes')
+// })
 
 app.get('/contact', function(req, res ){
 	res.render('pages/contact')
 })
 
-app.get('/elements', function(req, res ){
-	res.render('pages/elements')
-})
+// app.get('/elements', function(req, res ){
+// 	res.render('pages/elements')
+// })
 
 app.get('/index', function(req, res ){
 	res.render('pages/index')
 })
 
-app.get('/news', function(req, res ){
-	res.render('pages/news')
-})
+// app.get('/news', function(req, res ){
+// 	res.render('pages/news')
+// })
 
-app.get('/portfolio', function(req, res ){
-	res.render('pages/portfolio')
-})
+// app.get('/portfolio', function(req, res ){
+// 	res.render('pages/portfolio')
+// })
 
-app.get('/single-cause', function(req, res ){
-	res.render('pages/single-cause')
-})
+// app.get('/single-cause', function(req, res ){
+// 	res.render('pages/single-cause')
+// })
 
 
 

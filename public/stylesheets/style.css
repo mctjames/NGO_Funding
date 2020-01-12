@@ -42,7 +42,7 @@ a:hover, a:active {
 # Header Bar
 --------------------------------*/
 .top-header-bar {
-    background: #ff4800;
+    background: #18b14b;
     color: #fff;
 }
 
@@ -79,7 +79,7 @@ a:hover, a:active {
 # Header Bar Donate Button
 --------------------------------*/
 .donate-btn a {
-    display: inline-block;
+    display: none;
     padding: 20px 40px;
     font-size: 14px;
     font-weight: 500;
@@ -1264,7 +1264,7 @@ ul.tabs-nav .tab-nav.active {
 
 .help-us {
     padding: 70px 0 96px;
-    background: #ff3700;
+    background: #18b14b;
 }
 
 .help-us h2 {
