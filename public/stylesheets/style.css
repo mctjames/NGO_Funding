@@ -943,7 +943,7 @@ ul.tabs-nav .tab-nav.active {
 .cause-content-wrap .entry-title a {
     font-size: 18px;
     font-weight: 600;
-    color: #262626;
+    color: #ffffff;
 }
 
 .cause-content-wrap .posted-date a,
@@ -954,7 +954,7 @@ ul.tabs-nav .tab-nav.active {
     font-size: 11px;
     font-weight: 500;
     line-height: 1;
-    color: #262626;
+    color: #fffefe;
 }
 
 .cause-content-wrap .posted-date a {
@@ -985,7 +985,7 @@ ul.tabs-nav .tab-nav.active {
 
 .fund-raised-details {
     font-size: 14px;
-    color: #929191;
+    color: #fffefe;
 }
 
 /*
