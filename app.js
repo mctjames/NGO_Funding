@@ -54,6 +54,10 @@ app.get('/index', function(req, res ){
 // 	res.render('pages/single-cause')
 // })
 
+app.get('/payment', function(req, res){
+	res.render('pages/payment');
+});
+
 
 
 
