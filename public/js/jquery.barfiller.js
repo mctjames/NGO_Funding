@@ -14,7 +14,7 @@
     $.fn.barfiller = function (options) {
 
         var defaults = $.extend({
-            barColor: '#16b597',
+            barColor: '#18b14b',
             tooltip: true,
             duration: 1000,
             animateOnResize: true,
@@ -60,7 +60,7 @@
             *******************************/			
 
             appendHTML: function() {
-                fill.css('background', settings.barColor);
+                fill.css('background', "rgb(24,177,75)");
 
                 if(!settings.tooltip) {
                     toolTip.css('display', 'none');

@@ -319,12 +319,12 @@ a:hover, a:active {
     height: 70px;
     margin-top: -35px;
     border-radius: 50%;
-    background: -moz-linear-gradient(180deg, rgba(255,90,0,1) 0%, rgba(255,54,0,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,90,0,1)), color-stop(100%, rgba(1255,54,0,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(180deg, rgba(255,90,0,1) 0%, rgba(255,54,0,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(180deg, rgba(255,90,0,1) 0%, rgba(255,54,0,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(180deg, rgba(255,90,0,1) 0%, rgba(255,54,0,1) 100%); /* ie10+ */
-    background: linear-gradient(270deg, rgba(255,90,0,1) 0%, rgba(255,54,0,1) 100%); /* w3c */
+    background: -moz-linear-gradient(180deg, rgba(24,177,75) 0%, rgba(24,177,75) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(24,177,75)), color-stop(100%, rgba(124,177,75))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(180deg, rgba(24,177,75) 0%, rgba(24,177,75) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgba(24,177,75) 0%, rgba(24,177,75) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgba(24,177,75) 0%, rgba(24,177,75) 100%); /* ie10+ */
+    background: linear-gradient(270deg, rgba(24,177,75) 0%, rgba(24,177,75) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18b14b', endColorstr='#ff3600',GradientType=1 ); /* ie6-9 */
     transition: all .35s;
 }
@@ -475,7 +475,7 @@ a:hover, a:active {
 .accordion-wrap .entry-title.active {
     border: 0;
     background: -moz-linear-gradient(180deg, #68cc89 0%, #18b14b 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(1255,54,0,1))); /* safari4+,chrome */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(124,177,75))); /* safari4+,chrome */
     background: -webkit-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* safari5.1+,chrome10+ */
     background: -o-linear-gradient(180deg, r#68cc89  0%, #18b14b 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* ie10+ */
@@ -533,7 +533,7 @@ ul.tabs-nav .tab-nav {
 ul.tabs-nav .tab-nav.active {
     border: 0;
     background: -moz-linear-gradient(180deg, #68cc89 0%, #18b14b 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(1255,54,0,1))); /* safari4+,chrome */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(124,177,75))); /* safari4+,chrome */
     background: -webkit-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* safari5.1+,chrome10+ */
     background: -o-linear-gradient(180deg, r#68cc89  0%, #18b14b 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* ie10+ */
@@ -643,7 +643,7 @@ ul.tabs-nav .tab-nav.active {
 .icon-box.active {
     border: 0;
     background: -moz-linear-gradient(180deg, #68cc89 0%, #18b14b 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(1255,54,0,1))); /* safari4+,chrome */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(124,177,75))); /* safari4+,chrome */
     background: -webkit-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* safari5.1+,chrome10+ */
     background: -o-linear-gradient(180deg, r#68cc89  0%, #18b14b 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* ie10+ */
@@ -1053,7 +1053,7 @@ ul.tabs-nav .tab-nav.active {
     margin-top: -10px;
     border-radius: 50%;
     background: -moz-linear-gradient(180deg, #68cc89 0%, #18b14b 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(1255,54,0,1))); /* safari4+,chrome */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #68cc89 ), color-stop(100%, rgba(124,177,75))); /* safari4+,chrome */
     background: -webkit-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* safari5.1+,chrome10+ */
     background: -o-linear-gradient(180deg, r#68cc89  0%, #18b14b 100%); /* opera 11.10+ */
     background: -ms-linear-gradient(180deg, #68cc89  0%, #18b14b 100%); /* ie10+ */
