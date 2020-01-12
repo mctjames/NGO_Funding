@@ -19,7 +19,7 @@ app.use(express.static(__dirname+ '/public'));
 
 // Home page
 app.get('/', function(req, res){
-	res.render('pages/home');
+	res.render('pages/index');
 });
 
 app.get('/about', function(req, res ){
