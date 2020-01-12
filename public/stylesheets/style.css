@@ -1232,6 +1232,7 @@ ul.tabs-nav .tab-nav.active {
     font-weight: 600;
     line-height: 1.6;
     font-style: italic;
+    color: #ffffff;
 }
 
 .testimonial-cont p::after {
