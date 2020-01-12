@@ -1,0 +1,125 @@
+class Cause {
+    constructor() {
+        this.title = "";
+        this.blurb = "";
+        this.pic1 = "";
+        this.pic2 = "";
+        this.video = "";
+        this.amountRaised = 0;
+    }
+    getTitle() {
+      return this.title;
+    }
+
+    //getters
+    getBlurb() {
+        return this.blurb;
+      }
+      getPic1() {
+        return this.pic1;
+      }
+      getPic2() {
+        return this.pic2;
+      }
+      getVideo() {
+        return this.video;
+      }
+      getAmountRaised() {
+          return this.amountRaised;
+      }
+
+      //setters
+    setTitle(chosenTitle) {
+        this.title = chosenTitle;
+    }
+    setBlurb(chosenBlurb) {
+        this.blurb = chosenBlurb;
+    }
+    setTitle(chosenPic1) {
+        this.pic1 = chosenPic1;
+    }
+    setTitle(chosenPic2) {
+        this.pic2 = chosenPic2;
+    }
+    setTitle(chosenVideo) {
+        this.video = chosenVideo;
+    }
+    setAmountRaised(chosenAmountRaised) {
+        this.amountRaised = chosenAmountRaised;
+    }
+    increaseAmountRaised(donationAmount) {
+        this.amountRaised += donationAmount;
+    }
+}
+
+
+
+//quicksort
+
+function partition(items, left, right) {
+
+    var pivot = items[Math.floor((right.amountRaised + amountRaised) / 2)],
+        i = left,
+        j = right;
+
+    while (i <= j) {
+
+        while (items[i].amountRaised < pivot) {
+            i++;
+        }
+
+        while (items[j].amountRaised > pivot) {
+            j--;
+        }
+
+        if (i <= j) {
+            swap(items, i, j);
+            i++;
+            j--;
+        }
+    }
+    return i;
+}
+
+function quickSort(items, left, right) {
+
+    var index;
+
+    if (items.length > 1) {
+
+        // left = typeof left != "number" ? 0 : left;
+        // right = typeof right != "number" ? items.length - 1 : right;
+
+        index = partition(items, left, right);
+
+        if (left < index - 1) {
+            quickSort(items, left, index - 1);
+        }
+
+        if (index < right) {
+            quickSort(items, index, right);
+        }
+
+    }
+
+    return items;
+}
+
+
+//sorting list of causes
+
+function updateList(list) {
+    quickSort(list, 0, length(list)-1);
+}
+
+function archiveCompleteCauses(list, archive) {
+    for (i = 0; i < length(list); i++) {
+        if (list[i].amountRaised >= 1000) {
+            archive.append(list[i]);
+            list.shift();
+        }
+        else {
+            break;
+        }
+    }
+}
