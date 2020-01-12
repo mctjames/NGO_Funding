@@ -4,7 +4,6 @@
   "description": "a ngo funding and donation site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
   },
   "repository": {
@@ -18,6 +17,12 @@
   },
   "homepage": "https://github.com/mctjames/NGO_Funding#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "git": "^0.1.5",
+    "node": "^13.1.0",
+    "nodemon": "^1.19.4"
   }
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/stylesheets/login_update.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+
+    <div id="b"> 
+    <div id="navigationBar">
+
+    </div>
+
+    <h2 id = "headLogin">Welcome! water a NGO today!</h2>
+
+    <form action="/authenticate" method="post">
+      <hr>
+      <div class="container">
+        <h2 id = "adminLogin"> To log in as an admin use <br><br>
+          Login: admin  <br> 
+          Password: password 
+        </h2>
+      
+      <hr>
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <br><br>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br>  
+        <br>   
+        <button class = "loginB" type="submit">Login</button>
+
+      </div>
+      
+      <div class="container" style="background-color:#f1f1f1">
+
+        <div id="failed">
+          <% if (typeof status !== 'undefined') { %>
+            <% if (status != 'loggedin') { %>
+              <p><%= status %></p>
+            <% } %>
+          <% } %>
+        </div>
+
+        <div id="failed">
+          <% if (typeof status !== 'undefined') { %>
+            <% if (status == 'Username does not exist') { %>
+              <p><%= status %></p>
+            <% } %>
+          <% } %>
+        </div>
+
+      </div>
+      
+      
+    </form>
+          <form action="/register" method="post">
+            <br>
+        <button type="submit" class="registerbtn">Register a new account</button>
+         </form>
+        </div>
+</div>
+
+
+  </body>
+</html>
