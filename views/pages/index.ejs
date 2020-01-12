@@ -186,45 +186,37 @@
                             <img src="stylesheets/pictures/hands-gray.png" alt="">
                             <img src="stylesheets/pictures/hands-white.png" alt="">
                         </figure>
-
                         <header class="entry-header">
                             <h3 class="entry-title">Become a Volunteer</h3>
                         </header>
-
                         <div class="entry-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
                     <div class="icon-box">
                         <figure class="d-flex justify-content-center">
                             <img src="stylesheets/pictures/donation-gray.png" alt="">
                             <img src="stylesheets/pictures/donation-white.png" alt="">
                         </figure>
-
                         <header class="entry-header">
                             <h3 class="entry-title">Dance & Music</h3>
                         </header>
-
                         <div class="entry-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
                     <div class="icon-box">
                         <figure class="d-flex justify-content-center">
                             <img src="stylesheets/pictures/charity-gray.png" alt="">
                             <img src="stylesheets/pictures/charity-white.png" alt="">
                         </figure>
-
                         <header class="entry-header">
                             <h3 class="entry-title">Online Conference</h3>
                         </header>
-
                         <div class="entry-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
                         </div>
@@ -387,10 +379,73 @@
                         </div><!-- .cause-wrap -->
                     </div><!-- .featured-cause -->
 
+
+
+
             </div><!-- .col -->
         </div><!-- .row -->
+
+
     </div><!-- .container -->
+                    <a href="#" class="btn gradient-bg mr-2">Apply for Funding position 1</a>
 </div><!-- .home-page-icon-boxes -->
+                   <a href="#" class="btn gradient-bg mr-2">Apply for funding Position 2</a>
+
+
+<!-- testing out the new stuff I am trying to make -->
+<div class="container1">
+    <button class="add_form_field">Apply for Funding Option 3 &nbsp; <span style="font-size:16px; font-weight:bold;">+ </span></button>
+    <div>
+        <input type="text" name="mytext[]">
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    var max_fields      = 100;
+    var wrapper         = $(".container1");
+    var add_button      = $(".add_form_field");
+ 
+    var x = 1;
+    $(add_button).click(function(e){
+        e.preventDefault();
+        if(x < max_fields){
+            x++;
+            $(wrapper).append('<div><input type="text" name="mytext[]"/><a href="#" class="delete">Delete</a></div>'); //add input box
+        }
+  else
+  {
+  alert('You Reached the limits')
+  }
+    });
+ 
+    $(wrapper).on("click",".delete", function(e){
+        e.preventDefault(); $(this).parent('div').remove(); x--;
+    })
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="home-page-events">
         <div class="container">
             <div class="row">
@@ -544,6 +599,22 @@
             </div><!-- .row -->
         </div><!-- .container -->
     </div><!-- .home-page-events -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="our-causes">
         <div class="container">
