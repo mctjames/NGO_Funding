@@ -58,7 +58,7 @@ class Cause {
 
 function partition(items, left, right) {
 
-    var pivot = items[Math.floor((right.amountRaised + amountRaised) / 2)],
+    var pivot = items[Math.floor((items[right].amountRaised + items[left].amountRaised) / 2)],
         i = left,
         j = right;
 
