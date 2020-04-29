@@ -21,6 +21,7 @@
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "minimist": ">=1.2.3"
   }
 }
